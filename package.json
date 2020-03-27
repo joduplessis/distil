@@ -1,0 +1,59 @@
+{
+  "name": "@joduplessis/distil",
+  "title": "Distil",
+  "keywords": [
+    "Distil",
+    "PDF creation"
+  ],
+  "main": "lib/index.js",
+  "module": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "sideEffects": [
+    "lib/*"
+  ],
+  "pre-commit": [],
+  "files": [
+    "lib"
+  ],
+  "browserslist": [
+    "last 2 version",
+    "Firefox ESR",
+    "> 1%",
+    "ie >= 9"
+  ],
+  "repository": "https://github.com/joduplessis/distil",
+  "bugs": {
+    "url": "https://joduplessis.com",
+    "email": "jo@joduplessis.com"
+  },
+  "contributors": [
+    {
+      "name": "joduplessis"
+    }
+  ],
+  "homepage": "https://github.com/joduplessis/distil",
+  "deprecated": false,
+  "version": "0.0.1",
+  "description": "Easy PDF creation for NodeJS.",
+  "scripts": {
+    "test": "",
+    "dev": "tsc -w -p tsconfig.json",
+    "build": "tsc -p tsconfig.json",
+    "lint": "tslint --project ./"
+  },
+  "author": "Jo du Plessis",
+  "license": "MIT",
+  "peerDependencies": {},
+  "dependencies": {
+    "handlebars": "^4.7.3",
+    "html-pdf": "^2.2.0"
+  },
+  "devDependencies": {
+    "@types/handlebars": "^4.1.0",
+    "@types/html-pdf": "^2.2.0",
+    "ts-loader": "^6.0.4",
+    "tslint": "^5.18.0",
+    "tslint-loader": "^3.5.4",
+    "typescript": "^3.5.3"
+  }
+}
